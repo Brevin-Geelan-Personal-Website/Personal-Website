@@ -9,18 +9,26 @@ margin-top: 150px;
 }
 body {
     background-color: rgb(60, 69, 77);
+    color: black;
 }
 #header {
  color: black;
  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
  font-size: 12px;
-background-color: rgb(89, 89, 90);
+background-color: rgb(121, 121, 122);
 padding-bottom: 10px;
 padding-top: 1px;
 padding-left: 10px;
 }
-#headlinks {
-}
 a {
     color: black;
+}
+.dark-mode {
+    background-color: rgb(230, 227, 227);
+    color: black;
+}
+button {
+    background-color: rgb(238, 238, 238) ;
+    margin-left:84%;
+
 }
