@@ -11,18 +11,14 @@ body {
     background-color: rgb(72, 73, 75);
     color: black;
 }
-header {
- color: black;
- font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
- font-size: 30px;
-background-color: rgb(121, 121, 122);
-padding-bottom: 10px;
-padding-top: 15px;
-padding-left: 10px;
-padding-right: 10px;
-position: fixed;
-left: 0;
-right: 0;
+#home {
+    background-image: url(https://static.vecteezy.com/system/resources/previews/006/852/804/original/abstract-blue-background-simple-design-for-your-website-free-vector.jpg);
+}
+#port {
+    background-image: url(https://i.redd.it/gi2raaj22bna1.jpg);
+}
+#abt {
+    background-image: url(https://img.freepik.com/premium-vector/abstract-dark-blue-gradient-circles-background-vector-illustration_518299-622.jpg);
 }
 a {
     color: black;
@@ -35,6 +31,11 @@ button {
     background-color: rgb(238, 238, 238) ;
 margin-left: 20px;
 margin-bottom: 10px;
+}
+#homehead {
+    background-color: rgba(103, 131, 112, 0.616);
+    border-radius: 10px;
+    font-size: 26px;
 }
 h2 {
     text-align: center;
@@ -66,22 +67,29 @@ h3 {
     font-size: 23px;
 }
 .name {
-    float: left;
-    display: block;
+   display: flex;
+   flex-direction: row;
 }
 nav {
     font-size: 25px;
-    float: right;
     display: block;
 }
-nav ul {
+li { 
+    background-color: rgba(103, 131, 112, 0.459);
+    display: inline;
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 5px 5px;
+    margin: 7px;
+}
+ul {
     list-style-type: none;
-
-}
-nav ul li {
     display: block;
-    float: right;
-    margin-left: 10px;
+    margin: 25px;
+}
+a {
+color: darkgrey;
 }
 #h3home {
     text-align: center;
@@ -100,8 +108,20 @@ footer {
     width: 250px;
 }
 .projectsec {
-    background-color: rgb(103, 131, 112);
-    width: 720px;
     text-align: center;
-    margin-left: 31%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 12px;
+    gap: 15px;
+}
+.flexport {
+    background-color: rgba(103, 131, 112, 0.555);
+    margin: 5px 5px;
+width: 350px;
+height: 410px;
+border: 3px solid black;
+}
+html {
+    text-align: center;
 }
