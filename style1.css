@@ -1,78 +1,39 @@
-#Yoda {
-border: 20px solid black;
-height: 400px;
-width: 700px;
-display: block;
-margin-left: auto;
-margin-right: auto;
-margin-top: 150px;
+html {
+    text-align: center;
 }
 body {
     background-color: rgb(72, 73, 75);
     color: black;
 }
 #home {
-    background-image: url(https://static.vecteezy.com/system/resources/previews/006/852/804/original/abstract-blue-background-simple-design-for-your-website-free-vector.jpg);
+    background-image: url(https://i.redd.it/c7ing2le0ysa1.jpg);
 }
 #port {
     background-image: url(https://i.redd.it/gi2raaj22bna1.jpg);
 }
 #abt {
-    background-image: url(https://img.freepik.com/premium-vector/abstract-dark-blue-gradient-circles-background-vector-illustration_518299-622.jpg);
+    background-image: url(https://i.redd.it/n74eeif20ysa1.jpg);
 }
-a {
-    color: black;
+#contact {
+    background-image: url(https://i.redd.it/9gj48q6lcqsa1.jpg);
+
 }
-.dark-mode {
-    background-color: rgb(230, 227, 227);
-    color: black;
-}
-button {
-    background-color: rgb(238, 238, 238) ;
-margin-left: 20px;
-margin-bottom: 10px;
-}
-#homehead {
-    background-color: rgba(103, 131, 112, 0.616);
+#name {
+    background-color: rgba(103, 131, 112, 0.555);
+    border: 2px solid black;
     border-radius: 10px;
+    padding: 3px;
     font-size: 26px;
-}
-h2 {
-    text-align: center;
-}
-.abtsec {
-    border-top: 1px solid rgb(121, 121, 122);
-}
-#abtpicfish {
-    height: 400px;
-    margin-left: 250px;
-    margin-top: 40px;
-    float: left;
-}
-#abtpictrack {
-    float: right;
-    height: 400px;
-    margin-right: 200px;
-    margin-top: 40px;
-}
-h1 {
-    text-align: center;
-    font-family: 'Courier New', Courier, monospace;
-}
-p {
-    font-size: larger;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-h3 {
-    font-size: 23px;
-}
-.name {
-   display: flex;
-   flex-direction: row;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 nav {
     font-size: 25px;
     display: block;
+}
+ul {
+    list-style-type: none;
+    display: block;
+    margin: 25px;
 }
 li { 
     background-color: rgba(103, 131, 112, 0.459);
@@ -80,32 +41,114 @@ li {
     text-align: center;
     border: 3px solid black;
     border-radius: 10px;
-    padding: 5px 5px;
+    padding: 5px;
     margin: 7px;
 }
-ul {
-    list-style-type: none;
-    display: block;
-    margin: 25px;
-}
 a {
-color: darkgrey;
+    color: black;
+    border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    }
+    a:hover {
+        background-color: rgba(192, 192, 192, 0.466);
+    }
+.dark-mode {
+    background-color: rgb(230, 227, 227);
+    color: black;
+}
+button {
+    background-color: rgb(238, 238, 238) ;
+}
+h1 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+h2 {
+    text-align: center;
+}
+h3 {
+    font-size: 23px;
+}
+#homehead {
+    background-color: rgba(103, 131, 112, 0.712);
+    border-radius: 10px;
+    font-size: 26px;
+    margin-left: 8%;
+    margin-right: 8%;
+    border: 2px solid black;
 }
 #h3home {
     text-align: center;
+    background-color: rgba(103, 131, 112, 0.712);
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 2px;
+    border: 2px solid black;
+    border-radius: 10px;
 }
-footer {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    text-align: center;
-    background-color: rgb(121, 121, 122);
-    padding-top: 15px;
+#Yoda {
+    border: 15px solid black;
+    height: 400px;
+    width: 700px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    }
+#ty {
+    background-color: rgba(103, 131, 112, 0.712);
+    border-radius: 10px;
+    border: 2px solid black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px; 
+    margin-left: 55px;
+    margin-right: 55px;
+    padding: 1px;
 }
-.portpic {
-    height: 200px;
-    width: 250px;
+#typort {
+    color: black;
+}
+#abthead {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgba(103, 131, 112, 0.555);
+    border-radius: 10px;
+    margin-left: 175px;
+    margin-right: 175px;
+    padding: 5px;
+}
+.abtsec {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 150px;
+    top: 150px;
+}
+.flexabt {
+    background-color: rgba(103, 131, 112, 0.555);
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 430px;
+    height: 560px;
+}
+.abth3 {
+    font-family: 'Courier New', Courier, monospace;
+}
+.abtpic {
+    height: 250px;
+    width: 300px;
+    border: 2px solid black;
+}
+.abtp {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+#porthead {
+    background-color: rgba(103, 131, 112, 0.712);
+    border-radius: 10px;
+    font-size: 26px;
+    margin-left: 19%;
+    margin-right: 19%;
+    border: 2px solid black;
 }
 .projectsec {
     text-align: center;
@@ -119,9 +162,55 @@ footer {
     background-color: rgba(103, 131, 112, 0.555);
     margin: 5px 5px;
 width: 350px;
-height: 410px;
+height: 550px;
 border: 3px solid black;
 }
-html {
-    text-align: center;
+.portpic {
+    height: 200px;
+    width: 250px;
+}
+.portp{
+font-size: 20px;
+overflow: hidden;
+}
+#contacthead {
+    background-color: rgba(103, 131, 112, 0.555);
+    border-radius: 10px;
+    font-size: 26px;
+    margin-left: 19%;
+    margin-right: 19%;
+    border: 2px solid black;
+    font-family: 'Courier New', Courier, monospace;
+}
+#contactform {
+    background-color: rgba(103, 131, 112, 0.555);
+    margin-left: 20%;
+    margin-right: 20%;
+    border: 5px solid black;
+    padding-bottom: 5px;
+    font-family: 'Courier New', Courier, monospace;
+}
+#subreturn {
+    background-color: rgba(103, 131, 112, 0.555);
+    border: 2px solid black;
+    border-radius: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    margin-left: 19%;
+    margin-right: 19%;
+}
+@media screen and (max-width:755px) { 
+   #Yoda {
+    width: 400px;
+    height: 300px;
+   }
+    a {
+       font-size: 12px;
+ 
+    }
+}
+@media screen and (max-width:512px) {
+    #abthead {
+    font-size: 13px;
+    }
 }
